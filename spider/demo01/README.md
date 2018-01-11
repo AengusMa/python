@@ -39,6 +39,7 @@
             - [4.1.1re模块介绍](#411re%E6%A8%A1%E5%9D%97%E4%BB%8B%E7%BB%8D)
             - [4.1.2MatchObject](#412matchobject)
         - [4.2正则表达式语法](#42%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%AF%AD%E6%B3%95)
+        - [4.3爬虫实例：唐诗三百首](#43%E7%88%AC%E8%99%AB%E5%AE%9E%E4%BE%8B%EF%BC%9A%E5%94%90%E8%AF%97%E4%B8%89%E7%99%BE%E9%A6%96)
 
 <!-- /TOC -->
 
@@ -377,3 +378,14 @@ reuqest的官方文档的地址：[http://requests.readthedocs.io/en/latest/](ht
 - groups():返回匹配的子组，索引从1开始的所有子组
 - start/end/span:返回匹配的位置
 ### 4.2正则表达式语法
+- 通配符
+- 特殊通配符
+- RegexObject
+	- re.complie()返回的结果
+		- search
+		- match
+		- findall
+		- split
+		- finditer
+		- sub
+### 4.3爬虫实例：唐诗三百首
