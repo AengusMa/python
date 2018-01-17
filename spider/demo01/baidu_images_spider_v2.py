@@ -55,7 +55,7 @@ def download_wallpape_list():
     url = 'http://image.baidu.com/data/imgs'
     params ={
         'pn':0,
-        'rn':100,
+        'rn':300,
         'col':'壁纸',
         'tag':'动漫',
         'tags':'全部',
@@ -80,5 +80,5 @@ def download_wallpape_list():
     return imgs
 if __name__ =='__main__':
     Producer().start()
-    for i in range(3):
+    for i in range(4):
         Consumer().start()
