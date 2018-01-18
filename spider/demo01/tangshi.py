@@ -19,6 +19,7 @@ class PoemParser(HTMLParser):
         self.in_span = False
         self.poems = {}
         self.pattern = re.compile(r'\((.*)\)')
+        #g_img={url: "/az/hprichbg/rb/BarHarborCave_ZH-CN8055769470_1920x1080.jpg"
     def handle_starttag(self,tag,attrs):
         if tag == 'div' and _attr(attrs,'class')=='typecont':
             self.in_div = True
