@@ -1,3 +1,11 @@
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+#My configurations:
 spider/demo01/img/
 spider/demo01/wallpaper/
 spider/mySpider/img/
