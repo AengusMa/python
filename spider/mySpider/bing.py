@@ -20,7 +20,8 @@ def _download_image(url,folder='img'):
             fd.write(chunk)
     return filename(url)
 def getPicturesUrl():
-    url = 'https://cn.bing.com'
+    url = 'https://cn.bing.com' #国内版
+    #url = 'https://cn.bing.com/?ensearch=1' #国际版
     headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36'}
     s = requests.get(url,headers=headers)
     #));;g_img={url: "/az/hprichbg/rb/BarHarborCave_ZH-CN8055769470_1920x1080.jpg",id
